@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e608bd3fe4a2aa74bac570a5a40e17a9, type: 3}
+  m_Name: deer
+  m_EditorClassIdentifier: Assembly-CSharp::Heartlight.PuzzleDefinition
+  id: deer
+  title: "\u6797\u95F4\u7684\u56DE\u5E94"
+  clue: "\u547C\u5524\u9700\u8981\u56DE\u5E94\uFF0C\u68EE\u6797\u624D\u80FD\u8FDE\u63A5\u3002"
+  hint: "\u4E24\u53EA\u7CBE\u7075\u5C06\u6307\u5411\u6865\u524D\u7684\u5F15\u6D41\u673A\u5173\u3002"
+  ability: 1
+  kind: 3
+  prerequisites:
+  - fox
+  radius: 2.1
+  targetRotation: 1
+  initialRotation: 0
+  milestone: 0

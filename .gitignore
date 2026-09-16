@@ -1,0 +1,49 @@
+# Unity local and generated data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Archives, generated QA and local/academic references
+/ThirdPartySourceArchives/
+/QA/Compile/
+/QA/Logs/
+/QA/Previews/
+/QA/Captures/
+/References/
+*.zip
+*.rar
+*.unitypackage
+*.log
+heartlight-test-results.tsv
+
+# Audit third-party source redistribution before a public GitHub release.
+# See Documentation/GIT_HANDOFF_CN.md for dependency/reproducibility tradeoffs.
+/Assets/StarterAssets/
+/Assets/StarterAssets.meta
+/Assets/TextMesh Pro/
+/Assets/TextMesh Pro.meta
+/Assets/Standard Assets/
+/Assets/Standard Assets.meta
+
+# Licenses/credentials must not be committed.
+*.ulf
+*.alf
+.env
+.env.*

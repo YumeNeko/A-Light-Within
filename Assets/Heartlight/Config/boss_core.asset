@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e608bd3fe4a2aa74bac570a5a40e17a9, type: 3}
+  m_Name: boss_core
+  m_EditorClassIdentifier: Assembly-CSharp::Heartlight.PuzzleDefinition
+  id: boss_core
+  title: "\u5723\u6240 \xB7 \u52C7\u6C14\u706F\u5EA7"
+  clue: "\u7406\u89E3\u6050\u60E7\u4E4B\u540E\uFF0C\u7528\u52C7\u6C14\u70B9\u4EAE\u6700\u540E\u7684\u5FC3\u706F\u3002"
+  hint: "\u5FC3\u706F\u957F\u660E\u3002"
+  ability: 2
+  kind: 9
+  prerequisites:
+  - boss_reveal
+  - boss_link
+  radius: 2.1
+  targetRotation: 1
+  initialRotation: 0
+  milestone: 11
