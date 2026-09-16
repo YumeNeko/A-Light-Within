@@ -2,7 +2,7 @@
 
 更新：2026-09-16。工程位置：`D:\工程文件\Unity\A Light Within（心灯）`。
 
-当前结论：**独立工程和 Windows 试玩版均已成功构建，最终包体通过 73 项自动运行时检查，可以进入作者真实键鼠验收。** 本轮没有生成 ZIP，也没有上传 GitHub。
+当前结论：**独立工程和 Windows 试玩版均已成功构建，最终包体通过 73 项自动运行时检查，可以进入作者真实键鼠验收。** 源码已经上传至公开 GitHub 仓库，Windows 试玩 ZIP 已作为 `v1.0.0` Release 发布。
 
 ## 本轮改动
 
@@ -37,6 +37,8 @@
 - Unity 工程：`D:\工程文件\Unity\A Light Within（心灯）`
 - Windows 试玩版：`D:\工程文件\Unity\A Light Within（心灯）\Builds\Windows\A Light Within.exe`
 - 项目说明：工程根目录 `README.md`
+- 公开源码仓库：<https://github.com/YumeNeko/A-Light-Within>
+- Windows Release：<https://github.com/YumeNeko/A-Light-Within/releases/tag/v1.0.0>
 
 试玩时必须保留 exe 旁的 Data、Mono、图形库和 Unity 运行文件。试玩目录约 108.5 MiB，只额外保留必要的 Noto 与 Kenney 许可证。
 
